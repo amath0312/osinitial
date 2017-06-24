@@ -1,0 +1,15 @@
+code --install-extension robertohuertasm.vscode-icons
+code --install-extension donjayamanne.python
+code --install-extension HookyQR.beautify
+code --install-extension redhat.java
+code --install-extension alefragnani.project-manager
+code --install-extension DotJoshJohnson.xml
+code --install-extension mohsen1.prettify-json
+code --install-extension cssho.vscode-svgviewer
+code --install-extension felipecaputo.git-project-manager
+code --install-extension yzane.markdown-pdf
+code --install-extension gerane.theme-github
+
+pip install -i https://pypi.douban.com/simple virtualent
+pip install -i https://pypi.douban.com/simple flake8
+pip install -i https://pypi.douban.com/simple yapf
