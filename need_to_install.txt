@@ -53,3 +53,9 @@ http://mirrors.opencas.org/eclipse/technology/epp/downloads/release/neon/3/eclip
 
 #pycharm
 https://download.jetbrains.8686c.com/python/pycharm-professional-2017.1.4.exe
+
+#xmind
+http://dl2.xmind.cn/xmind-8-update2-windows.exe
+
+#yEd
+http://www.yworks.com/resources/yed/demo/yEd-3.17_with-JRE_32-bit_setup.exe
