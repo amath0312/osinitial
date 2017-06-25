@@ -10,6 +10,6 @@ code --install-extension felipecaputo.git-project-manager
 code --install-extension yzane.markdown-pdf
 code --install-extension gerane.theme-github
 
-pip install -i https://pypi.douban.com/simple virtualent
+pip install -i https://pypi.douban.com/simple virtualenv
 pip install -i https://pypi.douban.com/simple flake8
 pip install -i https://pypi.douban.com/simple yapf
