@@ -18,6 +18,7 @@ sudo apt-get install -y uget aria2
 sudo apt-get install -y git
 git config --global user.name amath0312
 git config --global user.email amath0312@gmail.com
+git config --global credential.helper store
 git clone https://github.com/amath0312/osinitial.git
 
 # python
