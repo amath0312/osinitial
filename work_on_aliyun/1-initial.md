@@ -52,3 +52,17 @@ enabled=1
 > 在aliyun控制台设置安全策略，入方向允许80端口  
 > sudo nginx -s reload  
 > 访问服务器成功  
+
+6. 安装MySQL
+> wget https://dev.mysql.com/get/mysql57-community-release-el7-11.noarch.rpm  
+> sudo rpm -Uvh mysql57-community-release-el7-11.noarch.rpm   
+> sudo yum repolist all|grep mysql  
+> sudo yum install mysql mysql-community-server  
+> sudo service mysqld start  
+find temporary password:  
+> sudo grep 'temporary password' /var/log/mysqld.log  
+> mysql -uroot -p  
+> alter user root@localhost identified by 'NewPass4!';  
+> create user 'zhaolin'@'%' identified by 'Kaka1234!';  
+> grant all privileges on *.* to 'zhaolin'@'%';  
+> flush privileges;  
