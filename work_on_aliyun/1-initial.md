@@ -66,3 +66,12 @@ find temporary password:
 > create user 'zhaolin'@'%' identified by 'Kaka1234!';  
 > grant all privileges on *.* to 'zhaolin'@'%';  
 > flush privileges;  
+
+7. 安装JDK  
+> sudo yum search java|grep -i --color JDK  
+> sudo yum install java-1.8.0-openjdk-devel.i686  
+> ll /etc/alternatives/javac  
+> #set JAVA_HOME  
+> wget http://mirrors.tuna.tsinghua.edu.cn/apache/maven/maven-3/3.5.0/binaries/apache-maven-3.5.0-bin.tar.gz  
+> tar xzvf apache-maven-3.5.0-bin.tar.gz  
+> mvn -v  
